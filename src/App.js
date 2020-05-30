@@ -9,11 +9,11 @@ function App() {
   return (
     <div className="App">
       <ThemeContextProvider>
-        {/* <AuthContextProvider> */}
+        <AuthContextProvider>
           <Navbar />
           <BookList />
           <ThemeToggle />
-        {/* </AuthContextProvider> */}
+        </AuthContextProvider>
       </ThemeContextProvider>
     </div>
   );
