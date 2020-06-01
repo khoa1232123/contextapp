@@ -36,3 +36,21 @@ nav ul li {
   margin: 10px auto;
   border-radius: 10px;
 }
+
+.book-form {
+  padding: 20px 20px 0px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+
+.book-form input[type="submit"] {
+  width: 50%;
+  line-height: 40px;
+}
